@@ -4,7 +4,7 @@ from random import randint
 name = ["Mac","Joe","Tim","Bill"]
 
 #number of players
-number = 4
+number = len(name)
 
 #person asking
 question = name[randint(0,number-1)]
